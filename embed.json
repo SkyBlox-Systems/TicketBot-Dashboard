@@ -1,0 +1,35 @@
+{
+    username: null,
+    avatarURL: null,
+    defaultJson: {
+          content: "Did you know that if you don't know something, you don't know it? This riddle was solved by me. Don't thank me.",
+          embed: {
+              timestamp: new Date().toISOString(),
+              url: "https://discord.com",
+              description: "There was a boar, everyone liked a boar. One day the boar ate my dinner and escaped through the chimney. I haven't seen a boar since then.",
+              author: {
+                  name: "Assistants Center",
+                  url: "https://assistants.ga",
+                  icon_url: "https://media.discordapp.net/attachments/911644960590270484/934513385402413076/ac_fixed.png"
+              },
+              image: {
+                  url: "https://unsplash.it/380/200"
+              },
+              footer: {
+                  text: "Crated with Discord-Dashboard",
+                  icon_url: "https://cdn.discordapp.com/emojis/870635912437047336.png"
+              },
+              fields: [
+                  {
+                      name: "Hello",
+                      value: "Hi, Assistants Center loves you <:ac_love:806492057996230676>"
+                  },
+                  {
+                      name: "Do you know that",
+                      value: "You can use custom emojis there, even from server where bot isn't :Kekwlaugh:",
+                      inline: false
+                  },
+              ]
+          }
+      }
+  }
